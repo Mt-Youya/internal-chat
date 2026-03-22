@@ -86,7 +86,7 @@ const app = new Koa()
 const router = new Router()
 
 // Serve built frontend
-const staticDir = path.join(__dirname, '../../frontend/dist')
+const staticDir = path.join(__dirname, '../../apps/web/dist')
 if (fs.existsSync(staticDir)) {
     app.use(serve(staticDir))
 }
