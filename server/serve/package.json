@@ -1,0 +1,29 @@
+{
+  "name": "@chat/serve",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "clean": "rm -rf node_modules"
+  },
+  "dependencies": {
+    "koa": "^3.1.2",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^14.0.0",
+    "koa-static": "^5.0.0",
+    "uuid": "^13.0.0",
+    "ws": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^3.0.2",
+    "@types/koa-router": "^7.4.9",
+    "@types/koa-static": "^4.0.4",
+    "@types/node": "^25.5.0",
+    "@types/uuid": "^11.0.0",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

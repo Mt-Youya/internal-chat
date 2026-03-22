@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "base-nova",
+  "rsc": false,
+  "tsx": true,
+  "tailwind": {
+    "config": "",
+    "css": "src/styles/globals.css",
+    "baseColor": "neutral",
+    "cssVariables": true
+  },
+  "iconLibrary": "lucide",
+  "aliases": {
+    "components": "@chat/ui/components",
+    "utils": "@chat/ui/lib/utils",
+    "hooks": "@chat/ui/hooks",
+    "lib": "@chat/ui/lib",
+    "ui": "@chat/ui/components"
+  },
+  "rtl": false,
+  "menuColor": "default-translucent",
+  "menuAccent": "subtle"
+}

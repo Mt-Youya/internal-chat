@@ -1,0 +1,18 @@
+{
+  "default": {
+    "id": "default",
+    "name": "默认房间",
+    "iceServers": [
+      { "urls": "stun:stun.l.google.com:19302" },
+      { "urls": "stun:stun1.l.google.com:19302" }
+    ]
+  },
+  "private": {
+    "id": "private",
+    "name": "私密房间",
+    "password": "123456",
+    "iceServers": [
+      { "urls": "stun:stun.l.google.com:19302" }
+    ]
+  }
+}
